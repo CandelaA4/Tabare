@@ -104,9 +104,9 @@
      grid-area: 4 / 1 / 5 / 4;
  }
 
- @media screen (max-width 400px)
+ @media screen (max-width 400px) {
  .container-fluid {
     flex-direction: columns ;
  grid-template-columns: 0.5fr 0.5fr 0.5fr;
- }
+ } }
  
