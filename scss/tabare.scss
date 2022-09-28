@@ -70,6 +70,10 @@ hr {
 .MAPA {
   text-align: center;
 }
+@import "header";
+@import "main";
+@import "footer";
+
 @media only screen and (min-width:576px) {
   .container-fluid {
     width: 50%;
@@ -88,6 +92,4 @@ hr {
     padding: 5px;
   }
 }
-@import "header";
-@import "main";
-@import "footer";
+
