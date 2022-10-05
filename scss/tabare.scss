@@ -74,6 +74,16 @@ hr {
 @import "main";
 @import "footer";
 
+@mixin emprendimientos
+{background-color: #61c419;
+  text-align: center;
+  border: #f5f5f5;
+}
+
+.emprendimiento {
+  @include emprendimientos
+}
+
 @media only screen and (min-width:576px) {
   .container-fluid {
     width: 50%;
