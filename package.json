@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "bluid-css": "node-sass --include-path scss scss/tabare.scss css/tabare.css",
+    "build-css": "node-sass --include-path scss scss/tabare.scss css/tabare.css",
     "watch-css": "nodemon -e scss -x \npm run build-css\""
   },
   "repository": {
